@@ -170,7 +170,6 @@ public class CardGame extends JFrame {
         labelTable.setHorizontalAlignment(JTextField.CENTER);
         panel.add(labelTable);
 
-        // если не получится вывести пошагово, то тогда добавляем 2 Jlabel и туда исходные данные пишем. Тогда и центральный можно убрать.
         button.addActionListener(e -> {
             startGame();
         });
